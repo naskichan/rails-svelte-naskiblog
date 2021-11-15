@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
   def index
-    @publicvar= Todos.all
+    @publicvar = 'Hello World'
   end
 end
